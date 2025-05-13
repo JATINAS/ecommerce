@@ -179,6 +179,7 @@ body .cart i img {
     width: 100px;
   }
   .cart div p {
-    margin: 0;
+    margin: 0px;
+    margin-top: unset;
   }
 }/*# sourceMappingURL=styles.css.map */
