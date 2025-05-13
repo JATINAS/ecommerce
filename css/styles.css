@@ -35,6 +35,9 @@ body .header .header__menu, body .header .header__car {
 body .header .header__menu img, body .header .header__car img {
   width: 100%;
 }
+body .header .header__menu .cart-icon, body .header .header__car .cart-icon {
+  width: 100%;
+}
 body .header .header__logo {
   width: 100px;
   cursor: pointer;
@@ -85,11 +88,11 @@ body .products .products__art p {
   font-weight: 300;
 }
 body .cart {
-  width: 500px;
+  display: contents;
   background-color: #fff;
   height: 100%;
   position: fixed;
-  right: 0%;
+  /*right: 0%;*/
   top: 100px;
   box-shadow: -19px -1px 22px -15px rgba(0, 0, 0, 0.3);
 }
